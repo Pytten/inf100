@@ -1,11 +1,11 @@
 
-x1 = float(input())
+x1 = int(input())
 print(f"x1 is {x1}")
-y1 = float(input())
+y1 = int(input())
 print(f"y1 is {y1}")
-x2 = float(input())
+x2 = int(input())
 print(f"x2 is {x2}")
-y2 = float(input())
+y2 = int(input())
 print(f"y2 is {y2}")
 
 x = (x2-x1)**2
