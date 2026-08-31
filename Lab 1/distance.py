@@ -13,4 +13,4 @@ x = (x2-x1)**2
 y = (y2-y1)**2
 avstand = (x + y)**0.5
 
-print(f"avstanden mellom ({x1}, {y1}) og ({x2}, {y2}) de to punktene er: {avstand}")
+print(f"avstanden mellom ({x1}, {y1}) og ({x2}, {y2}) er: {avstand}")
