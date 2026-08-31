@@ -1,0 +1,9 @@
+a = int #type of a
+b = float #type of b
+c = float #type of c
+d = int #type of d
+e = str #type of e
+f = bool #type of f
+g = int #type of g
+h = int #type of h
+i = "error" #type of i
