@@ -1,15 +1,16 @@
 
+
+print('x1 =', end='')
 x1 = int(input())
-print(f"x1 is {x1}")
+print('y1 =', end='')
 y1 = int(input())
-print(f"y1 is {y1}")
+print('x2 =', end='')
 x2 = int(input())
-print(f"x2 is {x2}")
+print('y2 =', end='')
 y2 = int(input())
-print(f"y2 is {y2}")
 
 x = (x2-x1)**2
 y = (y2-y1)**2
 avstand = (x + y)**0.5
 
-print(f"avstanden mellom de to punktene er: {avstand}")
+print(f"avstanden mellom ({x1}, {y1}) og ({x2}, {y2}) de to punktene er: {avstand}")
