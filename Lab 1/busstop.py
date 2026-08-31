@@ -1,10 +1,10 @@
 
 
-print("Hva er husnummeret ditt?")
+print("Husnummer:")
 hus_nummer = int(input())
 busstop = round(hus_nummer/7)*7      
 
 
-print(f"det nærmeste busstoppet er {busstop}")
+print(f"nærmeste busstopp er ved nummer {busstop}")
 
 
