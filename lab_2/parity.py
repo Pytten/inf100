@@ -6,10 +6,6 @@ def parity(x):
  else:
   return('Oddetall')
   
-parity(x = int(input()))
-
-
-
 
 
 print('Tester parity... ', end='')

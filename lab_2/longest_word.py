@@ -21,7 +21,7 @@ lengste = max(LENGDE_ORD)
 print("")
 if LENGDE_ORD[0] == lengste:
     print(ord1) 
-if LENGDE_ORD[1] == lengste:
+elif LENGDE_ORD[1] > LENGDE_ORD[0] and LENGDE_ORD[1] == lengste:
     print(ord2)
-if LENGDE_ORD[2] == lengste:
+else:
     print(ord3)
