@@ -24,3 +24,21 @@ for line in data_lines:
     table_dict.append(row_dict)
 
 print(table_dict)
+
+
+# People .csv
+
+# Navn,Alder,Høyde
+# Ola,20,1.80
+# Kari,19,1.65
+# Per,21,1.73
+# Oda,20,1.74
+
+
+from csv import DictReader
+from io import StringIO
+
+file_string = Path('people.csv').read_text(encoding='utf-8')
+reader = DictReader(StringIO(file_string), delimiter = ',', quotechar = '"')
+
+print(file_string)
